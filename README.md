@@ -3,7 +3,9 @@
 The original proposal was a robot based on the Strandbeest. The concept of this robot is to mimick the behavior of an insect, most similar to a cockroach. In order to accomplish this, various sensors were used; a light sensor and a infrared motion sensor reads values from the outside world to make the robot react accordingly. For instance, when a light source is shined on the robot, the robot should try to escape the light by turning around and running from it. Another example of sampling data the outside world is the infrared sensor. This acts as the robot’s eye which allows it to see and detect motion. The input from these sensors will determine the behavior of the output components. The ouput components for this robot are DC motors. To drive the motors, a motor controller is used to control the speed and direction. To power the motors, we use a Li-Po battery paired with a step down voltage regulator to supply the motors with appropriate voltage. The logic and compute power required to create the output from the input is an Arduino. In order to power this Arduino and everything else, the previously mentioned Li-Po battery is paired along with a step-up voltage regulator to provide the necessary voltage. In order to bridge the motors to the strandbeest model kit, I had to create a custom coupler using cad software and a 3d printer to materialize it.
 
 ### Schematics
-diagram coming soon.
+![schematics](https://www.github.com/karkay/strandbeest_arduino/blob/master/schematics.png "schematic diagram")
+### Power
+![Power](https://www.github.com/karkay/strandbeest_arduino/blob/master/power.png "power chart")
 ### Parts List
 1. Arduino Uno R3 
 https://www.sparkfun.com/products/11021
